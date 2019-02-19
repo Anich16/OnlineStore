@@ -1,0 +1,36 @@
+.products{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.product img {
+    height: 100px;
+}
+
+.addressInput,
+.nameInput,
+.description {
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.addressInput {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 15px;
+    width: 60%;
+}
+
+.button {
+    padding: 5px 10px;
+    margin-top: 5px;
+}
